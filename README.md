@@ -14,10 +14,13 @@ If you observe the above figure, you can find that our image (a matrix) is getti
 __kernel__: Kernel which are also sometimes called as filters are matrices, that move over the images to extract the features of the images. Visit this [site](https://setosa.io/ev/image-kernels/?from=hackcv&hmsr=hackcv.com&utm_medium=hackcv.com&utm_source=hackcv.com) for having a visual understanding of how kernels work
 
 __Stride__: Stride is a unit with which we move the kernel over an image, consider the below image, in which the stride value is 'two' since we move the filter each time by two (pixel) units. Also note that horizonatl sliding and vertical sliding can differ, but it is common to maintain same values for both.
+
 ![stride](https://github.com/VigneshKathirkamar/building_cnn/blob/main/stride.gif)
 
 __Pooling__: Pooling is the process of selecting/filtering certain pixel after a convolution. It is used to reduce the dimensions of the feature maps, therby reducing the number of parameters to learn and the amount of computation performed in the network. Find the below image for a better understanding in which max pool is done with filter size of 2x2 and stride 2 in both vertical and horizontal direction.
 ![pooling](https://github.com/VigneshKathirkamar/building_cnn/blob/main/pooling.png)
+
+
 
 [Pic ref: https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2
 https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/]
