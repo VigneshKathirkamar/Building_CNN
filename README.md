@@ -21,6 +21,7 @@ __Pooling__: Pooling is the process of selecting/filtering certain pixel after a
 ![pooling](https://github.com/VigneshKathirkamar/building_cnn/blob/main/pooling.png)
 
 Now, we would have seen that after applying convolution and pooling our original image dimension changes, to know what will be the dimension of the processed image after convolution and pooling we have a well established formula to find it, find it in the below figure
+
 ![formula](https://github.com/VigneshKathirkamar/building_cnn/blob/main/formula.png)
 
 The above formula is pretty intutive, where 
