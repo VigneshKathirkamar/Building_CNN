@@ -27,8 +27,8 @@ The above formula is pretty intutive, where
 * W -> Width of our Input 
 * H -> Height of our Input 
 * Fw,Fh -> Width and height of our filter respectively
-*Sw,Sh -> Stride units in horizontal and vertical direction respectively  
-*P -> Padding
+* Sw,Sh -> Stride units in horizontal and vertical direction respectively  
+* P -> Padding
 
 
 
