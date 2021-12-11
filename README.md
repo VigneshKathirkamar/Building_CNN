@@ -13,4 +13,5 @@ If you observe the above figure, you can find that our image (a matrix) is getti
 
 __kernel__: Kernel which are also sometimes called as filters are matrices, that move over the images to extract the features of the images. Visit this [site](https://setosa.io/ev/image-kernels/?from=hackcv&hmsr=hackcv.com&utm_medium=hackcv.com&utm_source=hackcv.com) for having a visual understanding of how kernels work
 
-__Stride__: Stride is a unit with which we move the kernel over an image, consider there aare 
+__Stride__: Stride is a unit with which we move the kernel over an image, consider the below image, in which the stride value is 'two' since we move the filter each time by two (pixel) units
+![stride](https://github.com/VigneshKathirkamar/building_cnn/blob/main/stride.gif)
