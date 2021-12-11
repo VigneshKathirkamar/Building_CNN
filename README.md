@@ -20,7 +20,14 @@ __Stride__: Stride is a unit with which we move the kernel over an image, consid
 __Pooling__: Pooling is the process of selecting/filtering certain pixel after a convolution. It is used to reduce the dimensions of the feature maps, therby reducing the number of parameters to learn and the amount of computation performed in the network. Find the below image for a better understanding in which max pool is done with filter size of 2x2 and stride 2 in both vertical and horizontal direction.
 ![pooling](https://github.com/VigneshKathirkamar/building_cnn/blob/main/pooling.png)
 
+Now, we would have seen that after applying convolution and pooling our original image dimension changes, to know what will be the dimension of the processed image after convolution and pooling we have a well established formula to find it, find it in the below figure
+![formula](https://github.com/VigneshKathirkamar/building_cnn/blob/main/formula.png)
 
 
-[Pic ref: https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2
-https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/]
+
+
+
+[ref: https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2
+https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/,
+https://cs231n.github.io/convolutional-networks/,
+https://d2l.ai/chapter_convolutional-neural-networks/padding-and-strides.html]
