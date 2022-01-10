@@ -31,7 +31,9 @@ The above formula is pretty intutive, where
 * Sw,Sh -> Stride units in horizontal and vertical direction respectively  
 * P -> Padding
 __Note__: Padding in tensorflow has two verbal values instead of numerals, they are "SAME" and "VALID". If padding is set to "SAME" then the input and output shape will be preserved when the stride is 1, If padding is set to "VALID", then the output shape is less than or equal to the input shape. Find the gif attached below for better clarity)
+
 ![padding](https://github.com/VigneshKathirkamar/Building_CNN/blob/main/padding.gif)
+
 The one on the left is having padding value as "SAME" and the one on the right is having the padding value as "VALID"
 
 
